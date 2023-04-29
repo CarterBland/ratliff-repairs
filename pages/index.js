@@ -56,7 +56,6 @@ export function getStaticProps() {
             projects: LatestProject,
             posts: FeaturedPost,
             services,
-            pricingItems,
             testimonialItems,
             brandItems,
         },
