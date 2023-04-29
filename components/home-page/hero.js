@@ -46,32 +46,12 @@ function HeroOne({ heroItems, settings }) {
                                             <span>{heroItem?.heroYear}</span>
                                             <ul className="social-box mb-[-140px]">
                                                 <li className="mb-[25px]">
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Twitter"
-                                                        >
-                                                            <TwitterIcon />
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li className="mb-[25px]">
-                                                    <Link href="https://example.com/">
+                                                    <Link href="https://www.facebook.com/profile.php?id=100077744520617">
                                                         <a
                                                             target="_blank"
                                                             aria-label="Facebook"
                                                         >
                                                             <FacebookIcon />
-                                                        </a>
-                                                    </Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="https://example.com/">
-                                                        <a
-                                                            target="_blank"
-                                                            aria-label="Google"
-                                                        >
-                                                            <GoogleIcon />
                                                         </a>
                                                     </Link>
                                                 </li>
@@ -94,7 +74,7 @@ function HeroOne({ heroItems, settings }) {
                                         <div className="hero-slidedown delay-[1200ms]">
                                             <Link href="/about">
                                                 <a className="boxed-btn text-[18px] leading-[30px]">
-                                                    More About Us
+                                                    View our Services
                                                 </a>
                                             </Link>
                                         </div>

@@ -2,11 +2,11 @@
 id: 'hero-01'
 title: Hero Image
 image: /images/hero/1.jpg
-heroYear: 2022
+heroYear:
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
-heroCategory: Rustic interior <br /> studio
-heroTitle: Rustic and <br /> Modern
-heroContactInfo: contact@Rustictudio.co
+heroCategory: at home or anywhere you need it
+heroTitle: Repairs and remodels <br>made simple
+heroContactInfo: contact@ratliffrepairs.com
 ---

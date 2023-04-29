@@ -13,23 +13,24 @@ function About() {
                     <div className="about-content max-md:pt-10">
                         <span className={subTitle}>About</span>
                         <h2 className={title}>
-                            Over 12 years leading and deeps in interiors
-                            industrial
+                            Over 4 years serving various capacities in the
+                            construction / remodeling space
                         </h2>
                         <h3 className="text-secondary text-2xl mb-12">
-                            We know that good design means <br /> good business
+                            We know that in can be difficult to find a handy-man
+                            you can trust. We are here to help.
                         </h3>
                         <p className={desc}>
-                            Founded by Robert Downey Jr in 2004, we’re an
-                            employee-owned firm pursuing a democratic design
-                            process that values everyone’s input. Today we have
-                            more than 150 people in London, Hong Kong and Sydney
-                            providing architecture, interior & urban design
-                            services from concept to completion.
+                            Hi, my name is Liam Ratliff, and I am the owner of
+                            Ratliff Repairs. We are a locally owned
+                            small-independent company providing various services
+                            including: handyman work, remodeling, and so much
+                            more! Contact us today to see if we&apos;re able to help,
+                            we would love to serve!
                         </p>
-                        <Link href="/about">
+                        <Link href="/contact">
                             <a className="boxed-btn text-[18px] leading-[30px]">
-                                More About Us
+                                Contact Us
                             </a>
                         </Link>
                     </div>

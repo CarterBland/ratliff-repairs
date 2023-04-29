@@ -30,7 +30,7 @@ function Footer() {
                                     <li>
                                         <Link href="mailto:hello@Rusticstudio.co">
                                             <a className="hover:text-black transition-all">
-                                                liam@ratliffrepairs.com
+                                                contact@ratliffrepairs.com
                                             </a>
                                         </Link>
                                     </li>
@@ -79,7 +79,7 @@ function Footer() {
                             <div className="md:col-span-2">
                                 <ul className="footer-language flex md:justify-end justify-center">
                                     <li>
-                                        <Link href="https://facebook.com/">
+                                        <Link href="https://www.facebook.com/profile.php?id=100077744520617">
                                             <a>
                                                 <FacebookIcon />
                                             </a>
