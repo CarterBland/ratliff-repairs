@@ -45,7 +45,6 @@ export function getStaticProps() {
     const posts = getAllItems('posts');
     const projects = getAllItems('projects');
     const services = getAllItems('services');
-    const pricingItems = getAllItems('pricing');
     const testimonialItems = getAllItems('testimonial');
     const brandItems = getAllItems('brands');
     const LatestProject = getFeaturedItems(projects);
@@ -68,7 +67,6 @@ HomePage.propTypes = {
     heroItems: PropTypes.instanceOf(Object).isRequired,
     services: PropTypes.instanceOf(Object).isRequired,
     projects: PropTypes.instanceOf(Object).isRequired,
-    pricingItems: PropTypes.instanceOf(Object).isRequired,
     testimonialItems: PropTypes.instanceOf(Object).isRequired,
     brandItems: PropTypes.instanceOf(Object).isRequired,
     posts: PropTypes.instanceOf(Object).isRequired,

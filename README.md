@@ -12,12 +12,12 @@ This project is a very minimal starter that includes 2 sample components, a glob
 
 ## Table of Contents:
 
-- [Getting Started](#getting-started)
-- [Installation options](#installation-options)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
+-   [Getting Started](#getting-started)
+-   [Installation options](#installation-options)
+-   [Testing](#testing)
+    -   [Included Default Testing](#included-default-testing)
+    -   [Removing Renovate](#removing-renovate)
+    -   [Removing Cypress](#removing-cypress)
 
 ## Getting Started
 
@@ -53,9 +53,9 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 We’ve included some tooling that helps us maintain these templates. This template currently uses:
 
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
+-   [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
+-   [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
+-   [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
 
 If your team is not interested in this tooling, you can remove them with ease!
 
@@ -74,7 +74,7 @@ For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testin
 -    enable = true
 -
 -  [plugins.inputs]
--    enable = false 
+-    enable = false
 ```
 
 If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:

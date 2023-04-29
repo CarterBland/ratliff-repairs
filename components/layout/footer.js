@@ -7,7 +7,7 @@ function Footer() {
     const currentYear = new Date().toLocaleDateString('en-US', {
         year: 'numeric',
     });
-    const FacebookIcon = FaIcons["FaFacebookF"];
+    const FacebookIcon = FaIcons.FaFacebookF;
     return (
         <footer className="footer-area md:pt-[120px] pt-[60px]">
             <div className="footer-top">
@@ -52,14 +52,10 @@ function Footer() {
                                         <Link href="/about">Services</Link>
                                     </li>
                                     <li>
-                                        <Link href="/about">
-                                            About
-                                        </Link>
+                                        <Link href="/about">About</Link>
                                     </li>
                                     <li>
-                                        <Link href="/about">
-                                            Contact
-                                        </Link>
+                                        <Link href="/about">Contact</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -74,16 +70,19 @@ function Footer() {
                             <div className="md:col-span-4 max-lm:order-last max-lm:pt-[10px]">
                                 <div className="copyright flex-wrap md:justify-start justify-center md:mb-0 mb-[10px]">
                                     © {currentYear}
-                                    <span className="mx-1">Ratliff Repairs LLC</span>
+                                    <span className="mx-1">
+                                        Ratliff Repairs LLC
+                                    </span>
                                 </div>
                             </div>
-                            <div className="md:col-span-6">
-                            </div>
+                            <div className="md:col-span-6" />
                             <div className="md:col-span-2">
                                 <ul className="footer-language flex md:justify-end justify-center">
                                     <li>
                                         <Link href="https://facebook.com/">
-                                            <a><FacebookIcon /></a>
+                                            <a>
+                                                <FacebookIcon />
+                                            </a>
                                         </Link>
                                     </li>
                                 </ul>
