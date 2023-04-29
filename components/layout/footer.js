@@ -1,11 +1,13 @@
 import Link from 'next/link';
 import * as AiIcons from 'react-icons/ai';
 import Image from 'next/image';
+import * as FaIcons from 'react-icons/fa';
 
 function Footer() {
     const currentYear = new Date().toLocaleDateString('en-US', {
         year: 'numeric',
     });
+    const FacebookIcon = FaIcons["FaFacebookF"];
     return (
         <footer className="footer-area md:pt-[120px] pt-[60px]">
             <div className="footer-top">
@@ -26,20 +28,16 @@ function Footer() {
                                 <h2 className="title">Contact</h2>
                                 <ul className="contact-info mt-[25px]">
                                     <li>
-                                        17 Princess Road, London, Greater
-                                        London, NW18JR, Uk
-                                    </li>
-                                    <li>
                                         <Link href="mailto:hello@Rusticstudio.co">
                                             <a className="hover:text-black transition-all">
-                                                hello@Rusticstudio.co
+                                                liam@ratliffrepairs.com
                                             </a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="tel:+0084-912-3548-073">
                                             <a className="hover:text-black transition-all">
-                                                (+0084) 912-3548-073
+                                                (417) 228-0626
                                             </a>
                                         </Link>
                                     </li>
@@ -51,64 +49,17 @@ function Footer() {
                                 <h2 className="title">Quick Links</h2>
                                 <ul className="footer-list mt-[25px]">
                                     <li>
-                                        <Link href="/contact">Works</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">Affiliate</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">Shop</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/about">Partners</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/about">Reviews</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="fixed-lg:col-span-3 fixed-md:col-span-2 fixed-lm:col-span-6 max-sm:pt-[30px]">
-                            <div className="footer-widget-item">
-                                <h2 className="title">Studio</h2>
-                                <ul className="footer-list mt-[25px]">
-                                    <li>
-                                        <Link href="/about">About</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">Contact</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/about">Career</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/posts">Blog</Link>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="fixed-lg:col-span-3 fixed-md:col-span-3 fixed-lm:col-span-6 max-sm:pt-[30px]">
-                            <div className="footer-widget-item">
-                                <h2 className="title">Help Center</h2>
-                                <ul className="footer-list mt-[25px]">
-                                    <li>
-                                        <Link href="/about">FAQs</Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/about">
-                                            Terms & Conditions
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/about">
-                                            Privacy Policy
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/contact">Help</Link>
-                                    </li>
-                                    <li>
                                         <Link href="/about">Services</Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/about">
+                                            About
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/about">
+                                            Contact
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>
@@ -123,61 +74,16 @@ function Footer() {
                             <div className="md:col-span-4 max-lm:order-last max-lm:pt-[10px]">
                                 <div className="copyright flex-wrap md:justify-start justify-center md:mb-0 mb-[10px]">
                                     © {currentYear}
-                                    <span className="mx-1">RUSTIC</span>
-                                    Made with © by
-                                    <div className="text-[#f53400] mx-1">
-                                        <AiIcons.AiFillHeart />
-                                    </div>
-                                    <Link href="https://themeforest.net/user/codecarnival/portfolio">
-                                        <a target="_blank">
-                                            <span> CodeCarnival</span>
-                                        </a>
-                                    </Link>
+                                    <span className="mx-1">Ratliff Repairs LLC</span>
                                 </div>
                             </div>
                             <div className="md:col-span-6">
-                                <ul className="footer-social-link md:mb-0 mb-[10px]">
-                                    <li>
-                                        <Link href="https://twitter.com/">
-                                            <a>Twitter</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="https://facebook.com/">
-                                            <a>Facebook</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="https://instagram.com/">
-                                            <a>Instagram</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="https://tumblr.com/">
-                                            <a>Tumblr</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="https://pinterest.com/">
-                                            <a>Pinterest</a>
-                                        </Link>
-                                    </li>
-                                </ul>
                             </div>
                             <div className="md:col-span-2">
                                 <ul className="footer-language flex md:justify-end justify-center">
-                                    <li className="mr-8">
-                                        <Link href="/about">
-                                            <a className="text-[#30373E] text-[14px] leading-6 uppercase transition-all hover:text-[#263a4f]">
-                                                Eng
-                                            </a>
-                                        </Link>
-                                    </li>
                                     <li>
-                                        <Link href="/about">
-                                            <a className="text-[#30373E] text-[14px] leading-6 uppercase transition-all hover:text-[#263a4f]">
-                                                Fre
-                                            </a>
+                                        <Link href="https://facebook.com/">
+                                            <a><FacebookIcon /></a>
                                         </Link>
                                     </li>
                                 </ul>
