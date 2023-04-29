@@ -5,7 +5,6 @@ import HeaderOne from '../components/header/header-1';
 import Hero from '../components/home-page/hero';
 import Services from '../components/home-page/services';
 import About from '../components/home-page/about';
-import PricingTab from '../components/home-page/pricing-tab';
 import Testimonial from '../components/home-page/testimonial';
 import Brand from '../components/home-page/brand';
 import FeaturedPost from '../components/home-page/featured-post';
@@ -15,7 +14,6 @@ function HomePage({
     heroItems,
     services,
     projects,
-    pricingItems,
     testimonialItems,
     brandItems,
     posts,
@@ -23,10 +21,10 @@ function HomePage({
     return (
         <>
             <Head>
-                <title>Rustic - React Business Template</title>
+                <title>Ratliff Repairs - Joplin Repairs</title>
                 <meta
                     name="description"
-                    content="Rustic - React Business Template is an excellent solution to the web designing needs for your website related to creative agency, business, portfolio, corporate, etc. "
+                    content="Ratliff Repairs is a Joplin based repair company. We specialize in all types of repairs. "
                 />
             </Head>
             <HeaderOne />
@@ -34,7 +32,6 @@ function HomePage({
             <Services services={services} />
             <LatestProject projects={projects} />
             <About />
-            <PricingTab pricingItems={pricingItems} />
             <Testimonial
                 testimonialItems={testimonialItems}
                 testimonialTitle="+1,250 Happy Clients"
