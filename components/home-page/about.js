@@ -12,21 +12,36 @@ function About() {
                 <div className="lg:grid lg:grid-cols-2 max-md:flex max-md:flex-col-reverse">
                     <div className="about-content max-md:pt-10">
                         <span className={subTitle}>About</span>
-                        <h2 className={title}>
-                            Over 4 years serving various capacities in the
-                            construction / remodeling space
-                        </h2>
+                        <h2 className={title}>Meet Liam</h2>
                         <h3 className="text-secondary text-2xl mb-12">
-                            We know that in can be difficult to find a handy-man
-                            you can trust. We are here to help.
+                            A trust-worthy repair man
                         </h3>
                         <p className={desc}>
-                            Hi, my name is Liam Ratliff, and I am the owner of
-                            Ratliff Repairs. We are a locally owned
-                            small-independent company providing various services
-                            including: handyman work, remodeling, and so much
-                            more! Contact us today to see if we&apos;re able to help,
-                            we would love to serve!
+                            My name is Liam and I specialize in providing
+                            quality home repair and improvement services to
+                            homeowners and businesses alike. We understand that
+                            maintaining a property can be time-consuming and
+                            stressful, which is why we are here to help you with
+                            all your repair and maintenance needs.
+                            <br />
+                            <br />
+                            At Ratliff Repairs, we are experienced in a wide
+                            range of home improvement projects, including
+                            plumbing, electrical work, carpentry, painting, and
+                            more. Whether you need a minor repair or a major
+                            renovation, we are committed to delivering results
+                            that exceed your expectations.
+                            <br />
+                            <br />
+                            We believe in providing our customers with the best
+                            possible experience, from the moment they contact us
+                            to the completion of the job. Our team is committed
+                            to ensuring that every job is completed efficiently,
+                            safely, and to the highest standard. We strive to
+                            build long-lasting relationships with our clients by
+                            providing reliable, affordable, and professional
+                            services. So if you&apos;re in need of a handyman,
+                            look no further than Ratliff Repairs.
                         </p>
                         <Link href="/contact">
                             <a className="boxed-btn text-[18px] leading-[30px]">

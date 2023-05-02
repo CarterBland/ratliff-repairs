@@ -6,7 +6,7 @@ heroYear:
 twitterIcon: 'FaTwitter'
 facebookIcon: 'FaFacebookF'
 googleIcon: 'FaGoogle'
-heroCategory: at home or anywhere you need it
+heroCategory: for homeowners and businesses alike
 heroTitle: Repairs and remodels <br>made simple
 heroContactInfo: contact@ratliffrepairs.com
 ---

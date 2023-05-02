@@ -21,10 +21,12 @@ function HomePage({
     return (
         <>
             <Head>
-                <title>Ratliff Repairs - Joplin Repairs</title>
+                <title>
+                    Ratliff Repairs - Repairs & remodeling made simple
+                </title>
                 <meta
                     name="description"
-                    content="Ratliff Repairs is a Joplin based repair company. We specialize in all types of repairs. "
+                    content="Ratliff Repairs is a Joplin based repair company. We specialize in all types of repairs."
                 />
             </Head>
             <HeaderOne />
