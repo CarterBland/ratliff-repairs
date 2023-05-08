@@ -18,8 +18,9 @@ function Footer() {
                                 <Image
                                     src="/images/logo/footer-logo.png"
                                     alt="Logo"
-                                    width={70}
-                                    height={70}
+                                    width={192}
+                                    height={135.75}
+                                    quality={100}
                                 />
                             </div>
                         </div>

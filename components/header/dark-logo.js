@@ -8,8 +8,9 @@ function DarkLogo() {
                 <Image
                     src="/images/logo/logo-2.png"
                     alt="Logo"
-                    width={70}
-                    height={70}
+                    width={192}
+                    height={135.75}
+                    quality={100}
                 />
             </a>
         </Link>
