@@ -43,6 +43,14 @@ function About() {
                             services. So if you&apos;re in need of a handyman,
                             look no further than Ratliff Repairs.
                         </p>
+                        <Link
+                            href="https://www.markate.com/public/widget/booking/products/84ddbf220ce2d9bbb1463cafc4e417ef:50476:5cb9bfe4"
+                            target="_blank"
+                        >
+                            <a className="boxed-btn text-[18px] leading-[30px] right-5">
+                                Schedule a Consultation
+                            </a>
+                        </Link>
                         <Link href="/contact">
                             <a className="boxed-btn text-[18px] leading-[30px]">
                                 Contact Us

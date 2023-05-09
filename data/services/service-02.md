@@ -1,6 +1,6 @@
 ---
-title: 'Commercial'
+title: 'Drywall'
 icon: 'AiOutlineShoppingCart'
 ---
 
-We provide all materials, labor, equip ensure a safe and secure
+Our drywall services include installation and repair to keep your walls smooth and sturdy.

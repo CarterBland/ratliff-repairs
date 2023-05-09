@@ -72,7 +72,15 @@ function HeroOne({ heroItems, settings }) {
                                             }}
                                         />
                                         <div className="hero-slidedown delay-[1200ms]">
-                                            <Link href="/about">
+                                            <Link
+                                                href="https://www.markate.com/public/widget/booking/products/84ddbf220ce2d9bbb1463cafc4e417ef:50476:5cb9bfe4"
+                                                target="_blank"
+                                            >
+                                                <a className="boxed-btn text-[18px] leading-[30px] right-5">
+                                                    Schedule a Consultation
+                                                </a>
+                                            </Link>
+                                            <Link href="/services">
                                                 <a className="boxed-btn text-[18px] leading-[30px]">
                                                     View our Services
                                                 </a>

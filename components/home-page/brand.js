@@ -34,28 +34,7 @@ function Brand({ brandItems, settings }) {
         <div className="brand-area bg-azure">
             <div className="container">
                 <div className="columns-1 border-[#dfdfdf] border-b md:py-[115px] py-[45px]">
-                    <SwiperComps settings={settings}>
-                        {brandItems?.map((brandItem) => (
-                            <Slide key={brandItem.id}>
-                                <div className="brand-item">
-                                    <div className={brandImage}>
-                                        <Link href="#">
-                                            <a>
-                                                <Image
-                                                    src={brandItem?.clientimage}
-                                                    alt={brandItem?.title}
-                                                    width={210}
-                                                    height={90}
-                                                    layout="responsive"
-                                                    quality={70}
-                                                />
-                                            </a>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </Slide>
-                        ))}
-                    </SwiperComps>
+                    <SwiperComps settings={settings} />
                 </div>
             </div>
         </div>
