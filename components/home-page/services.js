@@ -3,43 +3,38 @@ import Link from 'next/link';
 import Image from 'next/image';
 import * as AiIcons from 'react-icons/ai';
 
+function Card({ title, content }) {
+    return (
+        <div className="p-4 border rounded-md shadow-md">
+            <h2 className="text-lg font-medium mb-2">{title}</h2>
+            <p>{content}</p>
+        </div>
+    );
+}
+
 function Services({ services, showFull }) {
     return (
         <div className="service-area md:pt-160 pt-[60px] relative before:bg-pattern-1 before:absolute before:h-[336px] before:w-[336px] before:top-[170px] before:left-[-168px]">
             <div className="container max-w-full lg:pl-[70px] lg:pr-0">
                 <div className="lg:grid lg:grid-cols-12 flex flex-col-reverse">
-                    <div className="lg:col-span-6 xl:mr-[140px] lg:mr-[40px] max-md:pt-[50px]">
-                        <div className="service-content xl:w-[490px] w-full ml-auto">
+                    <div className="lg:col-span-8 ml-auto mr-auto">
+                        <div className="service-content w-full">
                             <span className="sub-title text-secondary text-[18px] leading-[32px] uppercase mb-[25px] block">
                                 Services
                             </span>
                             <h2 className="title text-black lm:text-[32px] lm:leading-[50px] text-[32px] mb-[60px]">
                                 Residential & Commercial
                             </h2>
-                            <div className="grid grid-cols-3">
+                            <div className="grid grid-cols-3 gap-4">
                                 {services?.map((service) => {
                                     const Icon = AiIcons[service?.icon];
                                     return (
-                                        <div
-                                            key={service?.title}
-                                            className="justify-center flex flex-col items-center text-center service-card"
-                                        >
-                                            <div className="icon">
-                                                <Icon />
-                                            </div>
-                                            <h3 className="title">
-                                                <Link href="/projects">
-                                                    <a className="hover:underline">
-                                                        {service?.title}
-                                                    </a>
-                                                </Link>
-                                            </h3>
-                                            {showFull && (
-                                                <p className="desc">
-                                                    {service?.content}
-                                                </p>
-                                            )}
-                                        </div>
+                                        <Card
+                                            title={service?.title}
+                                            content={
+                                                showFull ? service?.content : ''
+                                            }
+                                        />
                                     );
                                 })}
                             </div>
